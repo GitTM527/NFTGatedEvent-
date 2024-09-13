@@ -1,0 +1,311 @@
+{
+    "contracts": {
+        "/home/akhuemokhan-oluwatobi/Desktop/NFTGatedevent/contracts/NFTGatedevent.sol": {
+            "NFTGatedevent": {
+                "abi": [
+                    {
+                        "inputs": [],
+                        "name": "program",
+                        "outputs": [
+                            {
+                                "internalType": "uint32",
+                                "name": "",
+                                "type": "uint32"
+                            }
+                        ],
+                        "stateMutability": "view",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "kind": "dev",
+                    "methods": {},
+                    "version": 1
+                },
+                "evm": {
+                    "bytecode": {
+                        "functionDebugData": {},
+                        "generatedSources": [],
+                        "linkReferences": {},
+                        "object": "60808060405234601357607a908160188239f35b5f80fdfe60808060405260043610156011575f80fd5b5f3560e01c63c860ebc6146023575f80fd5b346040575f36600319011260405760209063ffffffff5f54168152f35b5f80fdfea2646970667358221220c81c74c3cb32e4e6aabfacaedd1a6010177631a865f1d0710659555004c7bd2464736f6c634300081b0033",
+                        "opcodes": "PUSH1 0x80 DUP1 PUSH1 0x40 MSTORE CALLVALUE PUSH1 0x13 JUMPI PUSH1 0x7A SWAP1 DUP2 PUSH1 0x18 DUP3 CODECOPY RETURN JUMPDEST PUSH0 DUP1 REVERT INVALID PUSH1 0x80 DUP1 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT ISZERO PUSH1 0x11 JUMPI PUSH0 DUP1 REVERT JUMPDEST PUSH0 CALLDATALOAD PUSH1 0xE0 SHR PUSH4 0xC860EBC6 EQ PUSH1 0x23 JUMPI PUSH0 DUP1 REVERT JUMPDEST CALLVALUE PUSH1 0x40 JUMPI PUSH0 CALLDATASIZE PUSH1 0x3 NOT ADD SLT PUSH1 0x40 JUMPI PUSH1 0x20 SWAP1 PUSH4 0xFFFFFFFF PUSH0 SLOAD AND DUP2 MSTORE RETURN JUMPDEST PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC8 SHR PUSH21 0xC3CB32E4E6AABFACAEDD1A6010177631A865F1D071 MOD MSIZE SSTORE POP DIV 0xC7 0xBD 0x24 PUSH5 0x736F6C6343 STOP ADDMOD SHL STOP CALLER ",
+                        "sourceMap": "76:234:0:-:0;;;;;;;;;;;;;;;;;"
+                    },
+                    "deployedBytecode": {
+                        "functionDebugData": {},
+                        "generatedSources": [],
+                        "immutableReferences": {},
+                        "linkReferences": {},
+                        "object": "60808060405260043610156011575f80fd5b5f3560e01c63c860ebc6146023575f80fd5b346040575f36600319011260405760209063ffffffff5f54168152f35b5f80fdfea2646970667358221220c81c74c3cb32e4e6aabfacaedd1a6010177631a865f1d0710659555004c7bd2464736f6c634300081b0033",
+                        "opcodes": "PUSH1 0x80 DUP1 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT ISZERO PUSH1 0x11 JUMPI PUSH0 DUP1 REVERT JUMPDEST PUSH0 CALLDATALOAD PUSH1 0xE0 SHR PUSH4 0xC860EBC6 EQ PUSH1 0x23 JUMPI PUSH0 DUP1 REVERT JUMPDEST CALLVALUE PUSH1 0x40 JUMPI PUSH0 CALLDATASIZE PUSH1 0x3 NOT ADD SLT PUSH1 0x40 JUMPI PUSH1 0x20 SWAP1 PUSH4 0xFFFFFFFF PUSH0 SLOAD AND DUP2 MSTORE RETURN JUMPDEST PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC8 SHR PUSH21 0xC3CB32E4E6AABFACAEDD1A6010177631A865F1D071 MOD MSIZE SSTORE POP DIV 0xC7 0xBD 0x24 PUSH5 0x736F6C6343 STOP ADDMOD SHL STOP CALLER ",
+                        "sourceMap": "76:234:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;76:234:0;;;;;;;;;;;;;;;;"
+                    },
+                    "gasEstimates": {
+                        "creation": {
+                            "codeDepositCost": "24400",
+                            "executionCost": "81",
+                            "totalCost": "24481"
+                        },
+                        "external": {
+                            "program()": "2247"
+                        }
+                    },
+                    "methodIdentifiers": {
+                        "program()": "c860ebc6"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.8.27+commit.40a35a09\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"program\",\"outputs\":[{\"internalType\":\"uint32\",\"name\":\"\",\"type\":\"uint32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/akhuemokhan-oluwatobi/Desktop/NFTGatedevent/contracts/NFTGatedevent.sol\":\"NFTGatedevent\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[],\"viaIR\":true},\"sources\":{\"/home/akhuemokhan-oluwatobi/Desktop/NFTGatedevent/contracts/NFTGatedevent.sol\":{\"keccak256\":\"0x82b7212477d441edb49d24e75830fb11e4fe8e113b5a587cdea8f7a113a5fc04\",\"license\":\"SEE LICENSE IN LICENSE\",\"urls\":[\"bzz-raw://8ac803bdac10e351ba3dbea8a77e0b4999a2c4267b154dd546e528dfe44d4c03\",\"dweb:/ipfs/QmRm46ssRMb735NbLLqJ7E3GDhkdsCJAbN6HpFzbVv89jg\"]}},\"version\":1}",
+                "storageLayout": {
+                    "storage": [
+                        {
+                            "astId": 3,
+                            "contract": "/home/akhuemokhan-oluwatobi/Desktop/NFTGatedevent/contracts/NFTGatedevent.sol:NFTGatedevent",
+                            "label": "program",
+                            "offset": 0,
+                            "slot": "0",
+                            "type": "t_uint32"
+                        }
+                    ],
+                    "types": {
+                        "t_uint32": {
+                            "encoding": "inplace",
+                            "label": "uint32",
+                            "numberOfBytes": "4"
+                        }
+                    }
+                },
+                "userdoc": {
+                    "kind": "user",
+                    "methods": {},
+                    "version": 1
+                }
+            }
+        }
+    },
+    "sources": {
+        "/home/akhuemokhan-oluwatobi/Desktop/NFTGatedevent/contracts/NFTGatedevent.sol": {
+            "ast": {
+                "absolutePath": "/home/akhuemokhan-oluwatobi/Desktop/NFTGatedevent/contracts/NFTGatedevent.sol",
+                "exportedSymbols": {
+                    "NFTGatedevent": [
+                        15
+                    ]
+                },
+                "id": 16,
+                "license": "SEE LICENSE IN LICENSE",
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.8",
+                            ".9"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "51:23:0"
+                    },
+                    {
+                        "abstract": false,
+                        "baseContracts": [],
+                        "canonicalName": "NFTGatedevent",
+                        "contractDependencies": [],
+                        "contractKind": "contract",
+                        "fullyImplemented": true,
+                        "id": 15,
+                        "linearizedBaseContracts": [
+                            15
+                        ],
+                        "name": "NFTGatedevent",
+                        "nameLocation": "85:13:0",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "constant": false,
+                                "functionSelector": "c860ebc6",
+                                "id": 3,
+                                "mutability": "mutable",
+                                "name": "program",
+                                "nameLocation": "119:7:0",
+                                "nodeType": "VariableDeclaration",
+                                "scope": 15,
+                                "src": "105:21:0",
+                                "stateVariable": true,
+                                "storageLocation": "default",
+                                "typeDescriptions": {
+                                    "typeIdentifier": "t_uint32",
+                                    "typeString": "uint32"
+                                },
+                                "typeName": {
+                                    "id": 2,
+                                    "name": "uint32",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "105:6:0",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_uint32",
+                                        "typeString": "uint32"
+                                    }
+                                },
+                                "visibility": "public"
+                            },
+                            {
+                                "canonicalName": "NFTGatedevent.Program",
+                                "id": 14,
+                                "members": [
+                                    {
+                                        "constant": false,
+                                        "id": 5,
+                                        "mutability": "mutable",
+                                        "name": "_eventId",
+                                        "nameLocation": "166:8:0",
+                                        "nodeType": "VariableDeclaration",
+                                        "scope": 14,
+                                        "src": "158:16:0",
+                                        "stateVariable": false,
+                                        "storageLocation": "default",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        },
+                                        "typeName": {
+                                            "id": 4,
+                                            "name": "uint256",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "158:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "visibility": "internal"
+                                    },
+                                    {
+                                        "constant": false,
+                                        "id": 7,
+                                        "mutability": "mutable",
+                                        "name": "_eventdescription",
+                                        "nameLocation": "191:17:0",
+                                        "nodeType": "VariableDeclaration",
+                                        "scope": 14,
+                                        "src": "184:24:0",
+                                        "stateVariable": false,
+                                        "storageLocation": "default",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string"
+                                        },
+                                        "typeName": {
+                                            "id": 6,
+                                            "name": "string",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "184:6:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_string_storage_ptr",
+                                                "typeString": "string"
+                                            }
+                                        },
+                                        "visibility": "internal"
+                                    },
+                                    {
+                                        "constant": false,
+                                        "id": 9,
+                                        "mutability": "mutable",
+                                        "name": "_eventdate",
+                                        "nameLocation": "226:10:0",
+                                        "nodeType": "VariableDeclaration",
+                                        "scope": 14,
+                                        "src": "218:18:0",
+                                        "stateVariable": false,
+                                        "storageLocation": "default",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        },
+                                        "typeName": {
+                                            "id": 8,
+                                            "name": "uint256",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "218:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "visibility": "internal"
+                                    },
+                                    {
+                                        "constant": false,
+                                        "id": 11,
+                                        "mutability": "mutable",
+                                        "name": "_maxattended",
+                                        "nameLocation": "254:12:0",
+                                        "nodeType": "VariableDeclaration",
+                                        "scope": 14,
+                                        "src": "246:20:0",
+                                        "stateVariable": false,
+                                        "storageLocation": "default",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_uint256",
+                                            "typeString": "uint256"
+                                        },
+                                        "typeName": {
+                                            "id": 10,
+                                            "name": "uint256",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "246:7:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            }
+                                        },
+                                        "visibility": "internal"
+                                    },
+                                    {
+                                        "constant": false,
+                                        "id": 13,
+                                        "mutability": "mutable",
+                                        "name": "_Iscreated",
+                                        "nameLocation": "281:10:0",
+                                        "nodeType": "VariableDeclaration",
+                                        "scope": 14,
+                                        "src": "276:15:0",
+                                        "stateVariable": false,
+                                        "storageLocation": "default",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_bool",
+                                            "typeString": "bool"
+                                        },
+                                        "typeName": {
+                                            "id": 12,
+                                            "name": "bool",
+                                            "nodeType": "ElementaryTypeName",
+                                            "src": "276:4:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bool",
+                                                "typeString": "bool"
+                                            }
+                                        },
+                                        "visibility": "internal"
+                                    }
+                                ],
+                                "name": "Program",
+                                "nameLocation": "140:7:0",
+                                "nodeType": "StructDefinition",
+                                "scope": 15,
+                                "src": "133:174:0",
+                                "visibility": "public"
+                            }
+                        ],
+                        "scope": 16,
+                        "src": "76:234:0",
+                        "usedErrors": [],
+                        "usedEvents": []
+                    }
+                ],
+                "src": "51:259:0"
+            },
+            "id": 0
+        }
+    }
+}
